@@ -115,7 +115,7 @@ function App() {
             </div>
           </div>
           <div className="cards w-full lg:w-[60rem] flex items-center justify-center flex-wrap gap-4">
-            {[1,2].map((_, i) => (
+            {[1, 2, 3, 4, 5, 6].map((_, i) => (
               <CardContainer
                 key={i}
                 brandName={drData.brand}
